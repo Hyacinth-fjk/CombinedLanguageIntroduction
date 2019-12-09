@@ -1,24 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
-	char ch = 'A';
-	char str[20] = "Hello World！";
-	float flt = 10.234F;
-	double db = 20.123456;
-	int no = 150;
+	const char* s = "Hello";
 
-	printf("字符为：%c\n", ch);
-	putchar(ch); /*等价于printf("%c", ch)*/
+	printf("字符串为：\n\t%10s\n\t%-10s\n\t%*s\n", s, s, 10, s);
+	printf("字符为:%c %%\n", 65);
 
-	printf("\n字符串为：%s\n", str);
-	puts(str); /*等价于printf("%s\n", str)，put函数中间不能拼接字符串*/
+	printf("十进制整数为：%i %d %.6i %.0i %+i %u\n", 1, 2, 3, 0, 4, -1);
+	printf("十六进制整数为：%x %#x %X %#X\n", 5, 5, 10, 10);
+	printf("八进制整数为：%o %#o %#o\n", 10, 10, 4);
 
-	printf("浮点数为：%f\n", flt);
-	printf("双精度值为：%lf\n", db);
-	printf("整数为：%d", no);
-	printf("八进制值为：%o\n", no);
-	printf("十六进制值为：%x", no);
+	printf("十进制浮点数为：%f %.0f %.20f\n", 1.5, 1.5, 1.3);
+	printf("限制位数的浮点数为：:%05.2f %.2f %5.2f\n", 1.500, 1.5, 10.5011);
+	printf("指数形式浮点数为：%e %E\n", 1.5, 1.5);
+	printf("十六进制浮点数为：%a %A\n", 1.5, 1.5);
 
-	return 0;
+	return EXIT_SUCCESS;
 }
