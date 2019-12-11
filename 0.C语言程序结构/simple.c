@@ -1,8 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
 	printf("Hello，world！I'm coming！"); /*输出要显示的字符串*/
 
-	return 0; /*程序返回0*/
+	return EXIT_SUCCESS; /*程序返回0*/
 }
