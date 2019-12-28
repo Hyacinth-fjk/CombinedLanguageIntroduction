@@ -12,6 +12,7 @@ C语言入门、练习源代码，从初学者的角度出发。
 * [1.printf函数](#printf函数)
 * [2.C语言各数据类型所占字节数](#C语言各数据类型所占字节数)
 * [3.C语言常量](#C语言常量)
+* [4.C语言变量](#C语言变量)
 
 ---
 
@@ -36,9 +37,17 @@ C语言入门、练习源代码，从初学者的角度出发。
 
 ### C语言常量
 * [文章地址](https://zhuanlan.zhihu.com/p/99170253)
-> integer_constants.c：整型常量  
-> real_constant.c：实型常量  
-> character_constant.c：字符型常量  
-> symbolic_constants.c：符号常量
+> integer_constants.c：整型常量，[跳转源码](https://github.com/Hyacinth-fjk/CombinedLanguageIntroduction/blob/master/3.C%E8%AF%AD%E8%A8%80%E5%B8%B8%E9%87%8F/integer_constants.c)  
+> real_constant.c：实型常量，[跳转源码](https://github.com/Hyacinth-fjk/CombinedLanguageIntroduction/blob/master/3.C%E8%AF%AD%E8%A8%80%E5%B8%B8%E9%87%8F/real_constant.c)  
+> character_constant.c：字符型常量，[跳转源码](https://github.com/Hyacinth-fjk/CombinedLanguageIntroduction/blob/master/3.C%E8%AF%AD%E8%A8%80%E5%B8%B8%E9%87%8F/character_constant.c)  
+> symbolic_constants.c：符号常量，[跳转源码](https://github.com/Hyacinth-fjk/CombinedLanguageIntroduction/blob/master/3.C%E8%AF%AD%E8%A8%80%E5%B8%B8%E9%87%8F/symbolic_constants.c)
+
+---
+
+### C语言变量
+* [文章地址](https://zhuanlan.zhihu.com/p/99493917)
+> integer_variable.c：整型变量  
+> real_variable.c：实型变量  
+> character_variable.c：字符型变量
 
 ---

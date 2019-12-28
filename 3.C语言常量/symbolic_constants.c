@@ -13,7 +13,7 @@ int main(void)
 
     result = radius * radius * PAI; /*进行计算*/
 
-    printf("圆的面积为：%lf", result);
+    printf("圆的面积为：%lf\n", result); /*显示结果*/
 
-    return EXIT_SUCCESS;
+    return EXIT_SUCCESS; /*程序结束*/
 }

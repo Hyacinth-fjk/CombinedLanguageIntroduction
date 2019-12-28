@@ -21,7 +21,7 @@ int main(void) {
 
     cuboid_volume = calculate(cuboid_length, cuboid_width); /*调用函数，计算体积*/
 
-    printf("长方体的体积是：%d", cuboid_volume); /*输出体积大小*/
+    printf("长方体的体积是：%d\n", cuboid_volume); /*输出体积大小*/
 
     return EXIT_SUCCESS;
 }
