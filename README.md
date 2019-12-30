@@ -46,8 +46,17 @@ C语言入门、练习源代码，从初学者的角度出发。
 
 ### C语言变量
 * [文章地址](https://zhuanlan.zhihu.com/p/99493917)
-> integer_variable.c：整型变量  
-> real_variable.c：实型变量  
-> character_variable.c：字符型变量
+> integer_variable.c：整型变量，[跳转源码](https://github.com/Hyacinth-fjk/CombinedLanguageIntroduction/blob/master/4.C%E8%AF%AD%E8%A8%80%E5%8F%98%E9%87%8F/integer_variables.c)  
+> real_variable.c：实型变量，[跳转源码](https://github.com/Hyacinth-fjk/CombinedLanguageIntroduction/blob/master/4.C%E8%AF%AD%E8%A8%80%E5%8F%98%E9%87%8F/real_variable.c)  
+> character_variable.c：字符型变量，[跳转源码](https://github.com/Hyacinth-fjk/CombinedLanguageIntroduction/blob/master/4.C%E8%AF%AD%E8%A8%80%E5%8F%98%E9%87%8F/character_variable.c)
+
+---
+
+### C语言变量的存储类别
+
+> auto_variable.c：auto变量  
+> static_variable.c：static变量  
+> register_variable.c：register变量  
+> extern_variable.c、extern_variable_main.c：extern变量
 
 ---
