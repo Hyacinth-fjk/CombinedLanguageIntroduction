@@ -3,8 +3,8 @@
 
 int main(void)
 {
-    extern int num; /*¶¨ÒåÍâ²¿ÕûĞÍ±äÁ¿*/
-    printf("%d\n", num); /*ÏÔÊ¾±äÁ¿Öµ*/
+    extern int num; /*å®šä¹‰å¤–éƒ¨æ•´å‹å˜é‡*/
+    printf("%d\n", num); /*æ˜¾ç¤ºå˜é‡å€¼*/
 
-    return EXIT_SUCCESS; /*³ÌĞò½áÊø*/
+    return EXIT_SUCCESS; /*ç¨‹åºç»“æŸ*/
 }

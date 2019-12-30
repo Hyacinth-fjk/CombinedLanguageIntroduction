@@ -13,6 +13,7 @@ C语言入门、练习源代码，从初学者的角度出发。
 * [2.C语言各数据类型所占字节数](#C语言各数据类型所占字节数)
 * [3.C语言常量](#C语言常量)
 * [4.C语言变量](#C语言变量)
+* [5.C语言变量的存储类别](#C语言变量的存储类别)
 
 ---
 
@@ -53,10 +54,10 @@ C语言入门、练习源代码，从初学者的角度出发。
 ---
 
 ### C语言变量的存储类别
-
-> auto_variable.c：auto变量  
-> static_variable.c：static变量  
-> register_variable.c：register变量  
-> extern_variable.c、extern_variable_main.c：extern变量
+* [文章地址](https://zhuanlan.zhihu.com/p/100158885)
+> auto_variable.c：auto变量，[跳转源码](https://github.com/Hyacinth-fjk/CombinedLanguageIntroduction/blob/master/5.C%E8%AF%AD%E8%A8%80%E5%8F%98%E9%87%8F%E7%9A%84%E5%AD%98%E5%82%A8%E7%B1%BB%E5%88%AB/auto_variable.c)  
+> static_variable.c：static变量，[跳转源码](https://github.com/Hyacinth-fjk/CombinedLanguageIntroduction/blob/master/5.C%E8%AF%AD%E8%A8%80%E5%8F%98%E9%87%8F%E7%9A%84%E5%AD%98%E5%82%A8%E7%B1%BB%E5%88%AB/static_variable.c)  
+> register_variable.c：register变量，[跳转源码](https://github.com/Hyacinth-fjk/CombinedLanguageIntroduction/blob/master/5.C%E8%AF%AD%E8%A8%80%E5%8F%98%E9%87%8F%E7%9A%84%E5%AD%98%E5%82%A8%E7%B1%BB%E5%88%AB/register_variable.c)  
+> extern_variable_main.c、extern_variable.c：extern变量，[跳转源码](https://github.com/Hyacinth-fjk/CombinedLanguageIntroduction/blob/master/5.C%E8%AF%AD%E8%A8%80%E5%8F%98%E9%87%8F%E7%9A%84%E5%AD%98%E5%82%A8%E7%B1%BB%E5%88%AB/extern_variable_main.c)、[跳转源码](https://github.com/Hyacinth-fjk/CombinedLanguageIntroduction/blob/master/5.C%E8%AF%AD%E8%A8%80%E5%8F%98%E9%87%8F%E7%9A%84%E5%AD%98%E5%82%A8%E7%B1%BB%E5%88%AB/extern_variable.c)
 
 ---
